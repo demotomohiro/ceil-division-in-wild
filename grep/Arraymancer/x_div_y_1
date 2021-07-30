@@ -1,0 +1,14 @@
+src/arraymancer/autograd/gates_shapeshifting_concat_split.nim:  ## it returns la mod n subtensors of size `(la div n) + 1`
+src/arraymancer/nn_dsl/dsl_topology.nim:  result[1] = (H + (2 * pH) - kH) div sH + 1
+src/arraymancer/nn_dsl/dsl_topology.nim:  result[2] = (W + (2 * pW) - kW) div sW + 1
+src/arraymancer/nn_primitives/fallback/conv.nim:    height_col = (height + (2 * padding.height) - kernel_size.height) div stride.height + 1
+src/arraymancer/nn_primitives/fallback/conv.nim:    width_col = (width + (2 * padding.width) - kernel_size.width) div stride.width + 1
+src/arraymancer/nn_primitives/fallback/conv.nim:    height_col = (height + (2 * padding.height) - kernel_size.height) div stride.height + 1
+src/arraymancer/nn_primitives/fallback/conv.nim:    width_col = (width + (2 * padding.width) - kernel_size.width) div stride.width + 1
+src/arraymancer/nn_primitives/fallback/conv.nim:    output_height = (input.nchw_height + (2*padding.height) - kernel.nchw_height) div stride.height + 1
+src/arraymancer/nn_primitives/fallback/conv.nim:    output_width = (input.nchw_width + (2*padding.width) - kernel.nchw_width) div stride.width + 1
+src/arraymancer/nn_primitives/fallback/conv.nim:    output_height = (input.nchw_height + (2*padding.height) - kernel.nchw_height) div stride.height + 1
+src/arraymancer/nn_primitives/fallback/conv.nim:    output_width = (input.nchw_width + (2*padding.width) - kernel.nchw_width) div stride.width + 1
+src/arraymancer/nn_primitives/nnp_maxpooling.nim:    outH = (H + (2 * padding.height) - kH) div stride.height + 1
+src/arraymancer/tensor/private/p_accessors_macros_read.nim:    result.shape[i] = abs((b-a) div slice.step) + 1
+src/arraymancer/tensor/shapeshifting.nim:  ## it returns la mod n subtensors of size `(la div n) + 1`

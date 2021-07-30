@@ -1,0 +1,4 @@
+PrimeCPP/solution_3/Sieve.h:	static constexpr auto words = (maxSize + wordsize - 1) / wordsize;
+PrimeCPP/solution_4/utils.hpp:    return (dividend + divisor - 1) / divisor;
+PrimeProlog/solution_1/bitvector.c:  size_t compressed_len = (len + CHAR_BIT - 1) / CHAR_BIT / 2;
+PrimeRust/solution_1/src/main.rs:            (numerator + denominator - 1) / denominator

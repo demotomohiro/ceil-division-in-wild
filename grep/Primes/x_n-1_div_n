@@ -1,0 +1,30 @@
+PrimeBallerina/solution_1/PrimeBal.bal:        while i < ((self.sieveSize + 1) / 2) {
+PrimeCSharp/solution_1/Benchmarks/PrimeSieve - And.cs:            bitArray = new((sieveSize + 1) / 2, true);
+PrimeCSharp/solution_1/Benchmarks/PrimeSieve - Mod.cs:            bitArray = new((sieveSize + 1) / 2, true);
+PrimeCSharp/solution_1/Benchmarks/PrimeSieve - US And.cs:            bitArray = new((sieveSize + 1) / 2, true);
+PrimeCSharp/solution_1/Benchmarks/PrimeSieve - US Mod.cs:            bitArray = new((sieveSize + 1) / 2, true);
+PrimeCSharp/solution_1/Sieves/PrimeSieve.cs:            bitArray = new((sieveSize + 1) / 2, true);
+PrimeCSharp/solution_1/Sieves/PrimeSieveBool.cs:            boolArray = new bool[(sieveSize + 1) / 2];
+PrimeCSharp/solution_1/Sieves/PrimeSieveInvBool.cs:            boolArray = new bool[(sieveSize + 1) / 2];
+PrimeCSharp/solution_1/Sieves/PrimeSieveInvBoolB.cs:            boolArray = new bool[(sieveSize + 1) / 2];
+PrimeCSharp/solution_1/Sieves/PrimeSieveOriginal.cs:            bitArray = new((sieveSize + 1) / 2, true);
+PrimeCSharp/solution_2/PrimeCS.cs:                bitArray = new BitArray(((this.sieveSize + 1) / 2), true);
+Binary file PrimeFSharp/solution_1/Program.fs matches
+PrimeGo/solution_2/sieve32.go:	end := (s.size + 1) / 2
+PrimeGo/solution_2/sieve32.go:	end := (s.size + 1) / 2
+PrimeGo/solution_2/sieve8.go:	end := (s.size + 1) / 2
+PrimeGo/solution_2/sieve8.go:	end := (s.size + 1) / 2
+PrimeGo/solution_2/sieve_other.go:	end := ((s.size + 1) / 2 + 31) / 32
+PrimeGo/solution_2/sieve_other.go:	end := (s.size + 1) / 2
+PrimeGo/solution_2/sieve_ptr.go:	end := (s.size + 1) / 2
+PrimeGo/solution_2/sieve_ptr.go:	end := (s.size + 1) / 2
+PrimeGo/solution_3/main.go:	end := (s.size + 1) / 2
+PrimeGo/solution_3/main.go:	end := (s.size + 1) / 2
+PrimeJava/solution_2/src/PrimeSieveJavaBitSet.java:      final var bitArrayLength = (this.sieveSize + 1) / 2;
+PrimeJava/solution_2/src/PrimeSieveJavaBitSetMT.java:      final var bitArrayLength = (this.sieveSize + 1) / 2;
+PrimeMixed/solution_1/sieve_cgo.go:	end = (end + 31) / 32;
+PrimeMixed/solution_1/sieve_cgo.go:	size_t end = (limit + 1) / 2;
+PrimeMixed/solution_1/sieve_cgo.go:	end := (s.size + 1) / 2
+PrimeProlog/solution_1/bitvector.c:  for (i = (x * (long) x) / 2; i <= (n + 1) / 2; i += x)
+PrimeScala/solution_1/sieve/src/Sieve.scala:  val rawBits: Array[Boolean] = Array.fill((sieveSize + 1) / 2)(true)
+PrimeSwift/solution_1/Sources/PrimeSieveSwift/main.swift:        bits = UnsafeMutableBufferPointer<Bool>.allocate(capacity: (limit + 1) / 2)

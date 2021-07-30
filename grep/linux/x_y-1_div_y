@@ -1,0 +1,142 @@
+linux-5.13.6/arch/alpha/boot/tools/objstrip.c:	mem_size = ((mem_size + pad - 1) / pad) * pad;
+linux-5.13.6/arch/arm/mach-omap1/clock.c:	div = (p_rate + rate - 1) / rate;
+linux-5.13.6/arch/powerpc/kvm/book3s_hv_rm_mmu.c:	npages = (psize + PAGE_SIZE - 1) / PAGE_SIZE;
+linux-5.13.6/arch/powerpc/platforms/powermac/nvram.c:		nvram_mult = (s1 + NVRAM_SIZE - 1) / NVRAM_SIZE;
+linux-5.13.6/arch/powerpc/platforms/powernv/pci-ioda-tce.c:	entries_shift = (entries_shift + levels - 1) / levels;
+linux-5.13.6/arch/powerpc/platforms/powernv/pci-ioda.c:	entries_shift = (entries_shift + levels - 1) / levels;
+linux-5.13.6/arch/powerpc/xmon/xmon.c:	nflush = (nflush + L1_CACHE_BYTES - 1) / L1_CACHE_BYTES;
+linux-5.13.6/arch/sh/boot/romimage/mmcif-sh7724.c:	                      (no_bytes + SH_MMCIF_BBS - 1) / SH_MMCIF_BBS,
+linux-5.13.6/arch/um/os-Linux/process.c:	vec = calloc(1, (len + UM_KERN_PAGE_SIZE - 1) / UM_KERN_PAGE_SIZE);
+linux-5.13.6/arch/um/os-Linux/process.c:	for (i = 0; i < ((len + UM_KERN_PAGE_SIZE - 1) / UM_KERN_PAGE_SIZE); i++) {
+linux-5.13.6/crypto/jitterentropy.c:	for (i = 0; ((DATA_SIZE_BITS + bits - 1) / bits) > i; i++) {
+linux-5.13.6/drivers/char/agp/generic.c:	scratch_pages = (page_count + ENTRIES_PER_PAGE - 1) / ENTRIES_PER_PAGE;
+linux-5.13.6/drivers/char/agp/generic.c:	pages = (page_count + ENTRIES_PER_PAGE - 1) / ENTRIES_PER_PAGE;
+linux-5.13.6/drivers/crypto/caam/desc_constr.h:	u32 pdb_len = (pdb_bytes + CAAM_CMD_SZ - 1) / CAAM_CMD_SZ;
+linux-5.13.6/drivers/crypto/caam/desc_constr.h:	u32 pdb_len = (pdb_bytes + CAAM_CMD_SZ - 1) / CAAM_CMD_SZ;
+linux-5.13.6/drivers/crypto/caam/desc_constr.h:				(len + CAAM_CMD_SZ - 1) / CAAM_CMD_SZ);
+linux-5.13.6/drivers/dma/ppc4xx/adma.c:	return (addr_count + XOR_MAX_OPS - 1) / XOR_MAX_OPS;
+linux-5.13.6/drivers/gpu/drm/amd/display/dc/core/dc_link_ddc.c:		(write_size + payload_size - 1) / payload_size;
+linux-5.13.6/drivers/gpu/drm/amd/display/dc/core/dc_link_ddc.c:		(read_size + payload_size - 1) / payload_size;
+linux-5.13.6/drivers/gpu/drm/amd/display/dc/dml/dcn20/display_mode_vba_20.c:	l = (ax + wx - 1) / wx;
+linux-5.13.6/drivers/gpu/drm/amd/display/dc/dml/dcn20/display_mode_vba_20v2.c:	l = (ax + wx - 1) / wx;
+linux-5.13.6/drivers/gpu/drm/amd/display/dc/dml/dcn21/display_mode_vba_21.c:	l = (ax + wx - 1) / wx;
+linux-5.13.6/drivers/gpu/drm/amd/display/dc/dml/dcn30/display_mode_vba_30.c:	L = (ax + wx - 1) / wx;
+linux-5.13.6/drivers/gpu/drm/amd/display/dmub/src/dmub_srv.c:	return (val + factor - 1) / factor * factor;
+linux-5.13.6/drivers/gpu/drm/nouveau/nvkm/subdev/clk/gk20a.c:	high_pl = (max_vco_f + target_vco_f - 1) / target_vco_f;
+linux-5.13.6/drivers/gpu/drm/omapdrm/tcm-sita.c:		area->p1.y = (pos + num_slots - 1) / tcm->width;
+linux-5.13.6/drivers/gpu/drm/radeon/r100.c:	hblocks = (h + block_height - 1) / block_height;
+linux-5.13.6/drivers/gpu/drm/radeon/r100.c:	wblocks = (w + block_width - 1) / block_width;
+linux-5.13.6/drivers/gpu/drm/radeon/rv6xx_dpm.c:	return (unscaled_count + count_per_unit - 1) / count_per_unit;
+linux-5.13.6/drivers/gpu/drm/radeon/trinity_dpm.c:	val = (p + tp - 1) / tp;
+linux-5.13.6/drivers/gpu/drm/radeon/trinity_dpm.c:	ni = (p + tp - 1) / tp;
+linux-5.13.6/drivers/gpu/drm/savage/savage_bci.c:		    (n + SAVAGE_DMA_PAGE_SIZE - 1) / SAVAGE_DMA_PAGE_SIZE;
+linux-5.13.6/drivers/gpu/ipu-v3/ipu-cpmem.c:	if ((bit + size - 1) / 32 > i) {
+linux-5.13.6/drivers/gpu/ipu-v3/ipu-cpmem.c:	if ((bit + size - 1) / 32 > i) {
+linux-5.13.6/drivers/infiniband/hw/hns/hns_roce_hem.c:		num_hem = (nobj + obj_per_chunk - 1) / obj_per_chunk;
+linux-5.13.6/drivers/infiniband/hw/hns/hns_roce_hem.c:		num_hem = (nobj + obj_per_chunk - 1) / obj_per_chunk;
+linux-5.13.6/drivers/infiniband/hw/mthca/mthca_allocator.c:		npages     = (size + PAGE_SIZE - 1) / PAGE_SIZE;
+linux-5.13.6/drivers/infiniband/hw/mthca/mthca_allocator.c:		for (i = 0; i < (size + PAGE_SIZE - 1) / PAGE_SIZE; ++i)
+linux-5.13.6/drivers/infiniband/hw/qib/qib_iba7322.c:	u32 regcnt = (piobcnt + BITS_PER_LONG - 1) / BITS_PER_LONG;
+linux-5.13.6/drivers/infiniband/sw/rdmavt/mr.c:	m = (count + RVT_SEGSZ - 1) / RVT_SEGSZ;
+linux-5.13.6/drivers/infiniband/sw/rdmavt/mr.c:	m = (count + RVT_SEGSZ - 1) / RVT_SEGSZ;
+linux-5.13.6/drivers/infiniband/sw/rxe/rxe_mr.c:	num_map = (num_buf + RXE_BUF_PER_MAP - 1) / RXE_BUF_PER_MAP;
+linux-5.13.6/drivers/md/raid5.c:	nr_pages = (disks + cnt - 1) / cnt;
+linux-5.13.6/drivers/media/common/cx2341x.c:		params->video_gop_size = b * ((gop + b - 1) / b);
+linux-5.13.6/drivers/media/common/cx2341x.c:		params->video_gop_size = b * ((gop + b - 1) / b);
+linux-5.13.6/drivers/media/common/cx2341x.c:		gop = b * ((gop + b - 1) / b);
+linux-5.13.6/drivers/media/i2c/ccs/ccs-core.c:	 * w = (x + a - 1) / a
+linux-5.13.6/drivers/media/platform/qcom/venus/hfi_plat_bufs_v6.c:	x = ((height + 16 - 1) / 8) * MAX_SE_NBR_CTRL_LCU16_LINE_BUFFER_SIZE;
+linux-5.13.6/drivers/media/platform/qcom/venus/hfi_plat_bufs_v6.c:	y = ((height + 32 - 1) / 8) * MAX_SE_NBR_CTRL_LCU32_LINE_BUFFER_SIZE;
+linux-5.13.6/drivers/media/platform/qcom/venus/hfi_plat_bufs_v6.c:	z = ((height + 64 - 1) / 8) * MAX_SE_NBR_CTRL_LCU64_LINE_BUFFER_SIZE;
+linux-5.13.6/drivers/media/platform/qcom/venus/hfi_plat_bufs_v6.c:	width_lcu_num = (width + lcu_size - 1) / lcu_size;
+linux-5.13.6/drivers/media/platform/qcom/venus/hfi_plat_bufs_v6.c:	height_lcu_num = (height + lcu_size - 1) / lcu_size;
+linux-5.13.6/drivers/media/platform/qcom/venus/hfi_plat_bufs_v6.c:			((width + SYSTEM_LAL_TILE10 - 1) / SYSTEM_LAL_TILE10) *
+linux-5.13.6/drivers/media/test-drivers/vivid/vivid-radio-rx.c:		freq = spacing * ((freq + spacing - 1) / spacing) - spacing;
+linux-5.13.6/drivers/media/test-drivers/vivid/vivid-radio-rx.c:			freq = spacing * ((high + spacing - 1) / spacing) - spacing;
+linux-5.13.6/drivers/memory/omap-gpmc.c:	return (time_ps + tick_ps - 1) / tick_ps;
+linux-5.13.6/drivers/memory/omap-gpmc.c:	temp = (temp + div - 1) / div;
+linux-5.13.6/drivers/mtd/nand/raw/gpmi-nand/gpmi-nand.c:	last = (offs + len - 1) / size;
+linux-5.13.6/drivers/mtd/nand/raw/nand_base.c:	end_step = (data_offs + readlen - 1) / chip->ecc.size;
+linux-5.13.6/drivers/mtd/nand/raw/nand_base.c:	uint32_t end_step   = (offset + data_len - 1) / ecc_size;
+linux-5.13.6/drivers/mtd/nand/raw/omap2.c:	u32 end_step   = (offset + data_len - 1) / ecc_size;
+linux-5.13.6/drivers/mtd/tests/stresstest.c:	len = ((len + pgsize - 1) / pgsize) * pgsize;
+linux-5.13.6/drivers/net/dsa/sja1105/sja1105_ptp.h: * is in fact precisely the floor value of "(a + b - 1) / b", which is
+linux-5.13.6/drivers/net/ethernet/atheros/atl1e/atl1e_main.c:		seg_num = (buf_len + MAX_TX_BUF_LEN - 1) / MAX_TX_BUF_LEN;
+linux-5.13.6/drivers/net/ethernet/google/gve/gve_tx.c:	u64 last_page = (iov_offset + iov_len - 1) / PAGE_SIZE;
+linux-5.13.6/drivers/net/ethernet/hisilicon/hns/hns_dsaf_main.h:	((DSAF_TOTAL_QUEUE_NUM + DSAF_SERVICE_NW_NUM - 1) / 32 + 1)
+linux-5.13.6/drivers/net/ethernet/hisilicon/hns/hns_enet.c:	buf_num = (size + BD_MAX_SEND_SIZE - 1) / BD_MAX_SEND_SIZE;
+linux-5.13.6/drivers/net/ethernet/hisilicon/hns/hns_enet.c:		buf_num += (size + BD_MAX_SEND_SIZE - 1) / BD_MAX_SEND_SIZE;
+linux-5.13.6/drivers/net/ethernet/hisilicon/hns/hns_enet.c:	frag_buf_num = (size + BD_MAX_SEND_SIZE - 1) / BD_MAX_SEND_SIZE;
+linux-5.13.6/drivers/net/vmxnet3/vmxnet3_drv.c:		adapter->rx_buf_per_pkt = 1 + (sz + PAGE_SIZE - 1) / PAGE_SIZE;
+linux-5.13.6/drivers/net/vmxnet3/vmxnet3_drv.c:	ring0_size = (ring0_size + sz - 1) / sz * sz;
+linux-5.13.6/drivers/net/vmxnet3/vmxnet3_drv.c:	ring1_size = (ring1_size + sz - 1) / sz * sz;
+linux-5.13.6/drivers/net/wireless/ath/ath9k/xmit.c:	nsymbols = (nbits + nsymbits - 1) / nsymbits;
+linux-5.13.6/drivers/net/wireless/broadcom/b43/phy_lp.c:	if ((tmp4 + tmp3 - 1) / tmp3 > 60) {
+linux-5.13.6/drivers/net/wireless/broadcom/brcm80211/brcmsmac/main.c:		dur = (mac_len + rate - 1) / rate;
+linux-5.13.6/drivers/net/wireless/intel/ipw2x00/ipw2200.c:		nr = (chunk_len + CB_MAX_LENGTH - 1) / CB_MAX_LENGTH;
+linux-5.13.6/drivers/net/wireless/marvell/mwifiex/sdio.c:	buf_block_len = (pkt_len + blk_size - 1) / blk_size;
+linux-5.13.6/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c:	val8 = ((30000 + NAV_UPPER_UNIT - 1) / NAV_UPPER_UNIT);
+linux-5.13.6/drivers/net/wireless/realtek/rtlwifi/wifi.h:	(__value) : (((__value + __aligment - 1) / __aligment) * __aligment))
+linux-5.13.6/drivers/net/wireless/ti/wl12xx/main.c:	return (align_len + blk_size - 1) / blk_size + spare_blks;
+linux-5.13.6/drivers/net/wireless/ti/wl18xx/main.c:	return (len + blk_size - 1) / blk_size + spare_blks;
+linux-5.13.6/drivers/pci/controller/pcie-brcmstb.c:	limit_addr_mb = (cpu_addr + size - 1) / SZ_1M;
+linux-5.13.6/drivers/pinctrl/bcm/pinctrl-iproc-gpio.c:	chip->num_banks = (ngpios + NGPIOS_PER_BANK - 1) / NGPIOS_PER_BANK;
+linux-5.13.6/drivers/ps3/ps3av.c:	timeout = (timeout + POLLING_INTERVAL - 1) / POLLING_INTERVAL;
+linux-5.13.6/drivers/scsi/aic94xx/aic94xx_seq.c:	int pages =  (size + LSEQ_CODEPAGE_SIZE - 1) / LSEQ_CODEPAGE_SIZE;
+linux-5.13.6/drivers/scsi/aic94xx/aic94xx_seq.c:	const int pages = (size + MAX_DMA_OVLY_COUNT - 1) / MAX_DMA_OVLY_COUNT;
+linux-5.13.6/drivers/scsi/be2iscsi/be_main.h:	((x < PAGE_SIZE) ? 1 :  ((x + PAGE_SIZE - 1) / PAGE_SIZE))
+linux-5.13.6/drivers/scsi/bnx2fc/bnx2fc_hwi.c:		num_rq = (frame_len + BNX2FC_RQ_BUF_SZ - 1) / BNX2FC_RQ_BUF_SZ;
+linux-5.13.6/drivers/scsi/cxgbi/libcxgbi.c:	num_pdu = (count + max_pdu_len - 1) / max_pdu_len;
+linux-5.13.6/drivers/scsi/lpfc/lpfc_sli.c:		longs = (count + BITS_PER_LONG - 1) / BITS_PER_LONG;
+linux-5.13.6/drivers/scsi/lpfc/lpfc_sli.c:		longs = (count + BITS_PER_LONG - 1) / BITS_PER_LONG;
+linux-5.13.6/drivers/scsi/lpfc/lpfc_sli.c:		longs = (count + BITS_PER_LONG - 1) / BITS_PER_LONG;
+linux-5.13.6/drivers/scsi/lpfc/lpfc_sli.c:		longs = (count + BITS_PER_LONG - 1) / BITS_PER_LONG;
+linux-5.13.6/drivers/scsi/ncr53c8xx.c:	else				np->minsync = (period + 40 - 1) / 40;
+linux-5.13.6/drivers/scsi/sym53c8xx_2/sym_hipd.c:	else				np->minsync = (period + 40 - 1) / 40;
+linux-5.13.6/drivers/spi/spi-coldfire-qspi.c:	return clamp((MCFQSPI_BUSCLK + speed_hz - 1) / speed_hz, 2u, 255u);
+linux-5.13.6/drivers/spi/spi-omap2-mcspi.c:		div = (OMAP2_MCSPI_MAX_FREQ + speed_hz - 1) / speed_hz;
+linux-5.13.6/drivers/staging/fbtft/fb_uc1611.c:	int y_end = (offset + len - 1) / line_length;
+linux-5.13.6/drivers/staging/fbtft/fbtft-core.c:		y_high = (index + PAGE_SIZE - 1) / info->fix.line_length;
+linux-5.13.6/drivers/staging/rtl8723bs/include/basic_types.h:#define N_BYTE_ALIGMENT(__Value, __Aligment) ((__Aligment == 1) ? (__Value) : (((__Value + __Aligment - 1) / __Aligment) * __Aligment))
+linux-5.13.6/drivers/target/iscsi/cxgbit/cxgbit_target.c:		num_pdu = (data_length + mrdsl - 1) / mrdsl;
+linux-5.13.6/drivers/usb/host/isp1362-hcd.c:	int num_ptds = ((len + PTD_HEADER_SIZE - 1) / epq->blk_size) + 1;
+linux-5.13.6/drivers/usb/host/oxu210hp-hcd.c:	n_blocks = (len + BUFFER_SIZE - 1) / BUFFER_SIZE;
+linux-5.13.6/drivers/video/fbdev/core/cfbcopyarea.c:	dst += (dst_idx + n - 1) / bits;
+linux-5.13.6/drivers/video/fbdev/core/cfbcopyarea.c:	src += (src_idx + n - 1) / bits;
+linux-5.13.6/drivers/video/fbdev/core/syscopyarea.c:	dst += (dst_idx + n - 1) / bits;
+linux-5.13.6/drivers/video/fbdev/core/syscopyarea.c:	src += (src_idx + n - 1) / bits;
+linux-5.13.6/drivers/video/fbdev/omap/hwa742.c:	return (ps + bus_tick - 1) / bus_tick * bus_tick;
+linux-5.13.6/drivers/video/fbdev/omap/lcdc.c:	*pck_div = (lck + pck - 1) / pck;
+linux-5.13.6/drivers/video/fbdev/omap/sossi.c:	return (clk_period + ps - 1) / clk_period;
+linux-5.13.6/fs/affs/super.c:			sbi->s_root_block = (reserved + size - 1) / 2;
+linux-5.13.6/fs/afs/dir.c:	nr_pages = (i_size + PAGE_SIZE - 1) / PAGE_SIZE;
+linux-5.13.6/fs/afs/write.c:	end = (start + len - 1) / PAGE_SIZE;
+linux-5.13.6/fs/cifs/smbdirect.c:		nvecs = (buflen + max_iov_size - 1) / max_iov_size;
+linux-5.13.6/fs/direct-io.c:		sdio->tail = (ret + PAGE_SIZE - 1) / PAGE_SIZE;
+linux-5.13.6/fs/fuse/file.c:		npages = (ret + PAGE_SIZE - 1) / PAGE_SIZE;
+linux-5.13.6/fs/nfs/nfs4renewd.c:			__func__, (timeout + HZ - 1) / HZ);
+linux-5.13.6/fs/ocfs2/xattr.c:	BUG_ON(value_blk != (offset + OCFS2_XATTR_ROOT_SIZE - 1) / blocksize);
+linux-5.13.6/fs/xfs/libxfs/xfs_attr_remote.c:		return (attrlen + buflen - 1) / buflen;
+linux-5.13.6/fs/xfs/libxfs/xfs_bmap.c:	maxblocks = (maxleafents + minleafrecs - 1) / minleafrecs;
+linux-5.13.6/fs/xfs/libxfs/xfs_bmap.c:			maxblocks = (maxblocks + minnoderecs - 1) / minnoderecs;
+linux-5.13.6/fs/xfs/libxfs/xfs_symlink_remote.c:	return (pathlen + buflen - 1) / buflen;
+linux-5.13.6/fs/xfs/xfs_log_cil.c:		split_res = (len + iclog_space - 1) / iclog_space;
+linux-5.13.6/include/linux/mpi.h:	return mpi_alloc((nbits + BITS_PER_MPI_LIMB - 1) / BITS_PER_MPI_LIMB);
+linux-5.13.6/kernel/debug/kdb/kdb_main.c:		z = (z + num - 1) / num;
+linux-5.13.6/kernel/rcu/rcu.h:			levelspread[i] = (cprv + ccur - 1) / ccur;
+linux-5.13.6/kernel/rcu/rcutorture.c:	sd4 = (sd + fwd_progress_div - 1) / fwd_progress_div;
+linux-5.13.6/kernel/time/posix-cpu-timers.c:		tp->tv_nsec = ((NSEC_PER_SEC + HZ - 1) / HZ);
+linux-5.13.6/kernel/watch_queue.c:	bmsize = (nr_notes + BITS_PER_LONG - 1) / BITS_PER_LONG;
+linux-5.13.6/mm/percpu-stats.c:		cur_med_alloc = alloc_sizes[(i + as_len - 1) / 2];
+linux-5.13.6/mm/process_vm_access.c:	nr_pages = (addr + len - 1) / PAGE_SIZE - addr / PAGE_SIZE + 1;
+linux-5.13.6/net/ipv4/tcp_input.c:		tp->reordering = min_t(u32, (metric + mss - 1) / mss,
+linux-5.13.6/net/sunrpc/auth_gss/gss_krb5_crypto.c:	nblocks = (nbytes + blocksize - 1) / blocksize;
+linux-5.13.6/net/sunrpc/auth_gss/gss_krb5_crypto.c:	nblocks = (subbuf.len + blocksize - 1) / blocksize;
+linux-5.13.6/sound/isa/sb/emu8000_pcm.c:				     (1000000 + HZ - 1) / HZ, UINT_MAX);
+linux-5.13.6/sound/soc/ti/davinci-mcasp.c:	u8 max_active_serializers = (channels + slots - 1) / slots;
+linux-5.13.6/sound/soc/ti/davinci-mcasp.c:		active_serializers = (channels + total_slots - 1) / total_slots;
+linux-5.13.6/tools/bpf/bpftool/gen.c:		align_off = (off + align - 1) / align * align;
+linux-5.13.6/tools/testing/selftests/bpf/prog_tests/core_reloc.c:	return (sz + page_size - 1) / page_size * page_size;
+linux-5.13.6/tools/testing/selftests/bpf/prog_tests/mmap.c:	return (sz + page_size - 1) / page_size * page_size;
+linux-5.13.6/tools/testing/selftests/net/forwarding/sch_red.sh:		local pkts=$(((diff + PKTSZ - 1) / PKTSZ))
+linux-5.13.6/tools/vm/page-types.c:			size, (size + page_size - 1) / page_size);

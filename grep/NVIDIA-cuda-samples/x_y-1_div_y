@@ -1,0 +1,10 @@
+Samples/NV12toBGRandResize/bgr_resize.cu:    while ((h + nTiles - 1) / nTiles > 65536)
+Samples/cdpQuadtree/cdpQuadtree.cu:      warpSize, (num_points + NUM_WARPS_PER_BLOCK - 1) / NUM_WARPS_PER_BLOCK);
+Samples/reduction/reduction.cpp:    blocks = (n + threads - 1) / threads;
+Samples/reduction/reduction.cpp:          s = (s + threads - 1) / threads;
+Samples/simpleDrvRuntime/simpleDrvRuntime.cpp:  int blocksPerGrid = (N + threadsPerBlock - 1) / threadsPerBlock;
+Samples/simpleVulkanMMAP/MonteCarloPi.cu:#define ROUND_UP_TO_GRANULARITY(x, n) (((x + n - 1) / n) * n)
+Samples/simpleVulkanMMAP/MonteCarloPi.cu:      std::min(m_blocks, (int)((m_numPoints + m_threads - 1) / m_threads));
+Samples/vectorAddMMAP/multidevicealloc_memmap.cpp:static size_t round_up(size_t x, size_t y) { return ((x + y - 1) / y) * y; }
+Samples/vectorAddMMAP/vectorAddMMAP.cpp:    int blocksPerGrid   = (N + threadsPerBlock - 1) / threadsPerBlock;
+Samples/vectorAdd_nvrtc/vectorAdd.cpp:  int blocksPerGrid = (numElements + threadsPerBlock - 1) / threadsPerBlock;

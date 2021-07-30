@@ -1,0 +1,3 @@
+cadscene.cpp:  container.resize((size + 3) / 4, 0);
+renderer.cpp:    m_stats.tasksInput += di.task ? (di.meshlet.count + 31) / 32 : 0;
+renderer_gl_mesh.cpp:      uint32_t count  = useTask ? (di.meshlet.count + 31) / 32 : di.meshlet.count;

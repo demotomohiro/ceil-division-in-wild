@@ -1,0 +1,12 @@
+Samples/conjugateGradientMultiDeviceCG/conjugateGradientMultiDeviceCG.cu:  int sMemSize = sizeof(double) * ((THREADS_PER_BLOCK / 32) + 1);
+Samples/cudaNvSciNvMedia/cuda_consumer.cu:  dim3 grid((imageWidth / block.x) + 1, (imageHeight / block.y) + 1, 1);
+Samples/cudaNvSciNvMedia/cuda_consumer.cu:  dim3 grid((imageWidth / block.x) + 1, (imageHeight / block.y) + 1, 1);
+Samples/jacobiCudaGraphs/jacobi.cu:      nblocks.x = (N_ROWS / nthreads.x) + 1;
+Samples/jacobiCudaGraphs/jacobi.cu:      size_t sharedMemSize = ((nthreads.x / 32) + 1) * sizeof(double);
+Samples/jacobiCudaGraphs/jacobi.cu:      nblocks.x = (N_ROWS / nthreads.x) + 1;
+Samples/jacobiCudaGraphs/jacobi.cu:      size_t sharedMemSize = ((nthreads.x / 32) + 1) * sizeof(double);
+Samples/jacobiCudaGraphs/jacobi.cu:      nblocks.x = (N_ROWS / nthreads.x) + 1;
+Samples/jacobiCudaGraphs/jacobi.cu:      size_t sharedMemSize = ((nthreads.x / 32) + 1) * sizeof(double);
+Samples/reduction/reduction_kernel.cu:      smemSize = ((threads / 32) + 1) * sizeof(T);
+Samples/simpleAWBarrier/simpleAWBarrier.cu:  int smemSize = ((blockSize / 32) + 1) * sizeof(double);
+Samples/warpAggregatedAtomicsCG/warpAggregatedAtomicsCG.cu:  dim3 dimGrid((NUM_ELEMS / NUM_THREADS_PER_BLOCK) + 1, 1, 1);

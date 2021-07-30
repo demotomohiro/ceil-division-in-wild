@@ -1,0 +1,5 @@
+PrimeCSharp/solution_1/Sieves/PrimeSieveArrayPool6Par.cs:                        int mult = Math.Max(((rangeStart / factor) + 1) | 1, factor);
+PrimeCSharp/solution_1/Sieves/PrimeSieveRawParallel.cs:                        int mult = Math.Max(((rangeStart / factor) + 1) | 1, factor);
+PrimeCSharp/solution_3/PrimeCS.cs:                rawbits = GC.AllocateUninitializedArray<byte>((int)((n / 8) + 1), pinned: true);
+PrimeRust/solution_6/src/multithreaded.rs:            let mut n: usize = (N / 2) + 1;
+PrimeRust/solution_6/src/singlethreaded.rs:                let mut n: usize = (N / 2usize) + 1;

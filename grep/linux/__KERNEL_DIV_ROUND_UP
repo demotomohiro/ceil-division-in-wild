@@ -1,0 +1,18 @@
+linux-5.13.6/drivers/gpu/drm/vmwgfx/device_include/svga3d_surfacedefs.h:	block_size->width = __KERNEL_DIV_ROUND_UP(pixel_size->width,
+linux-5.13.6/drivers/gpu/drm/vmwgfx/device_include/svga3d_surfacedefs.h:	block_size->height = __KERNEL_DIV_ROUND_UP(pixel_size->height,
+linux-5.13.6/drivers/gpu/drm/vmwgfx/device_include/svga3d_surfacedefs.h:	block_size->depth = __KERNEL_DIV_ROUND_UP(pixel_size->depth,
+linux-5.13.6/drivers/gpu/drm/vmwgfx/device_include/svga3d_surfacedefs.h:	const u32 rowstride = __KERNEL_DIV_ROUND_UP(width, bw) *
+linux-5.13.6/drivers/gpu/drm/vmwgfx/device_include/svga3d_surfacedefs.h:	const u32 imgstride = __KERNEL_DIV_ROUND_UP(height, bh) * rowstride;
+linux-5.13.6/drivers/gpu/drm/vmwgfx/device_include/svga3d_surfacedefs.h:			__KERNEL_DIV_ROUND_UP(mip->size.width,
+linux-5.13.6/drivers/gpu/drm/vmwgfx/device_include/svga3d_surfacedefs.h:			__KERNEL_DIV_ROUND_UP(mip->size.height,
+linux-5.13.6/drivers/gpu/drm/vmwgfx/vmwgfx_resource.c:			pgoff_t end = __KERNEL_DIV_ROUND_UP
+linux-5.13.6/drivers/gpu/drm/vmwgfx/vmwgfx_resource.c:		*num_prefault = __KERNEL_DIV_ROUND_UP(last_cleaned - res_start,
+linux-5.13.6/include/linux/bitops.h:#define BITS_TO_LONGS(nr)	__KERNEL_DIV_ROUND_UP(nr, BITS_PER_TYPE(long))
+linux-5.13.6/include/linux/bitops.h:#define BITS_TO_U64(nr)		__KERNEL_DIV_ROUND_UP(nr, BITS_PER_TYPE(u64))
+linux-5.13.6/include/linux/bitops.h:#define BITS_TO_U32(nr)		__KERNEL_DIV_ROUND_UP(nr, BITS_PER_TYPE(u32))
+linux-5.13.6/include/linux/bitops.h:#define BITS_TO_BYTES(nr)	__KERNEL_DIV_ROUND_UP(nr, BITS_PER_TYPE(char))
+linux-5.13.6/include/linux/math.h:#define DIV_ROUND_UP __KERNEL_DIV_ROUND_UP
+linux-5.13.6/include/uapi/linux/const.h:#define __KERNEL_DIV_ROUND_UP(n, d) (((n) + (d) - 1) / (d))
+linux-5.13.6/include/uapi/linux/ethtool.h:	__u32	queue_mask[__KERNEL_DIV_ROUND_UP(MAX_NUM_QUEUE, 32)];
+linux-5.13.6/include/uapi/linux/mroute6.h:	if_mask ifs_bits[__KERNEL_DIV_ROUND_UP(IF_SETSIZE, NIFBITS)];
+linux-5.13.6/tools/include/uapi/linux/const.h:#define __KERNEL_DIV_ROUND_UP(n, d) (((n) + (d) - 1) / (d))

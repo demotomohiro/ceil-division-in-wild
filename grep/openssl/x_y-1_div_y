@@ -1,0 +1,10 @@
+apps/engine.c:        *size = ((len + expand - 1) / expand) * expand;
+apps/engine.c:            *size = ((len + expand - 1) / expand) * expand;
+crypto/bn/rsaz_exp_x2.c:    return (bitsize + digit_size - 1) / digit_size;
+crypto/ec/ec_mult.c:                    numblocks = (tmp_len + blocksize - 1) / blocksize;
+crypto/ec/ec_mult.c:    numblocks = (bits + blocksize - 1) / blocksize; /* max. number of blocks
+crypto/params_dup.c:    return (bytes + OSSL_PARAM_ALIGN_SIZE - 1) / OSSL_PARAM_ALIGN_SIZE;
+providers/implementations/kdfs/pkcs12kdf.c:    Slen = v * ((saltlen + v - 1) / v);
+providers/implementations/kdfs/pkcs12kdf.c:        Plen = v * ((passlen + v - 1) / v);
+providers/implementations/macs/kmac_prov.c:        *out_len = (sz + w - 1) / w * w;
+providers/implementations/macs/kmac_prov.c:    sz = (len + w - 1) / w * w;

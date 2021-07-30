@@ -1,0 +1,5 @@
+src/arraymancer/laser/primitives/matrix_multiplication/gemm_tiling.nim:  (dim_size + tile_size - 1) div tile_size
+src/arraymancer/laser/private/align_unroller.nim:    result = ((x + step - 1) div step) * step
+src/arraymancer/tensor/fallback/legacy/blas_l3_gemm.nim:    mb = (m + MC - 1) div MC
+src/arraymancer/tensor/fallback/legacy/blas_l3_gemm.nim:    nb = (n + NC - 1) div NC
+src/arraymancer/tensor/fallback/legacy/blas_l3_gemm.nim:    kb = (k + KC - 1) div KC

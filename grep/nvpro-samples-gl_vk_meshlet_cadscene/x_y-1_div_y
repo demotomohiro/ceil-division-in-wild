@@ -1,0 +1,6 @@
+drawmeshlet.mesh.glsl:  #define NVMSH_VERTEX_RUNS     ((NVMESHLET_VERTEX_COUNT + GROUP_SIZE - 1) / GROUP_SIZE)
+drawmeshlet.mesh.glsl:  #define NVMSH_PRIMITIVE_RUNS  ((NVMESHLET_PRIMITIVE_COUNT + GROUP_SIZE - 1) / GROUP_SIZE)
+drawmeshlet.mesh.glsl:  const uint primRuns = (primCount + GROUP_SIZE - 1) / GROUP_SIZE;
+nvmeshlet_array.hpp:  return ((size + align - 1) / align) * align;
+nvmeshlet_builder.hpp:  return (numMeshlets + MESHLETS_PER_TASK - 1) / MESHLETS_PER_TASK;
+resources.hpp:  return ((sz + align - 1) / align) * align;
