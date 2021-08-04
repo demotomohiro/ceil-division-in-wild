@@ -31,6 +31,7 @@ cd linux-5.13.6
 grep "DIV_ROUND_UP" -r linux-5.13.6 > DIV_ROUND_UP
 grep "__KERNEL_DIV_ROUND_UP" -r linux-5.13.6 > __KERNEL_DIV_ROUND_UP
 grep -E "\([[:alnum:]_.]+ \+ [[:alnum:]_.]+ - 1\) / [[:alnum:]_.]+" -r linux-5.13.6 > x_y-1_div_y
+grep -E "\([[:alnum:]_.]+ >> [[:digit:]]+\) \+ \(\(?[[:alnum:]_.]+ & [[:digit:]]+\)?" -r linux-5.13.6 > x_shr_y_plus_x_and_z
 ```
 
 Uncompressing the file on MS Windows might fail as there is a file "aux.c" and that file name cannot be used on MS Windows.

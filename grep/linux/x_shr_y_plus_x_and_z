@@ -1,0 +1,25 @@
+linux-5.13.6/arch/mips/kernel/module.c:			val = ((val >> 16) + ((val & 0x8000) != 0)) & 0xffff;
+linux-5.13.6/arch/mips/kernel/vpe.c:			val = ((val >> 16) + ((val & 0x8000) != 0)) & 0xffff;
+linux-5.13.6/arch/powerpc/kernel/module_32.c:			   (((x >> 16) + ((x & 0x8000) ? 1 : 0))) & 0xFFFF.
+linux-5.13.6/drivers/fsi/fsi-occ.c:	checksum += (data_length >> 8) + (data_length & 0xFF);
+linux-5.13.6/drivers/gpu/drm/radeon/r600.c:		 UPLL_SW_LOLEN((vclk_div >> 1) + (vclk_div & 1)) |
+linux-5.13.6/drivers/gpu/drm/radeon/r600.c:		 UPLL_SW_LOLEN2((dclk_div >> 1) + (dclk_div & 1)) |
+linux-5.13.6/drivers/gpu/drm/radeon/rv770.c:		 UPLL_SW_LOLEN((vclk_div >> 1) + (vclk_div & 1)) |
+linux-5.13.6/drivers/gpu/drm/radeon/rv770.c:		 UPLL_SW_LOLEN2((dclk_div >> 1) + (dclk_div & 1)),
+linux-5.13.6/drivers/media/pci/ivtv/ivtv-yuv.c:		h_filter = (h_filter >> 1) + (h_filter & 1);
+linux-5.13.6/drivers/media/pci/ivtv/ivtv-yuv.c:		master_height = (master_height >> 1) + (master_height & 1);
+linux-5.13.6/drivers/media/pci/ivtv/ivtv-yuv.c:		master_height = (master_height >> 1) + (master_height & 1);
+linux-5.13.6/drivers/media/pci/ivtv/ivtv-yuv.c:		master_height = (master_height >> 1) + (master_height & 1);
+linux-5.13.6/drivers/media/pci/ivtv/ivtv-yuv.c:		reg_2964 = (reg_2964 >> 1) + (reg_2964 & 1);
+linux-5.13.6/drivers/media/pci/ivtv/ivtv-yuv.c:		v_filter_1 = (v_filter_1 >> 1) + (v_filter_1 & 1);
+linux-5.13.6/drivers/media/pci/ivtv/ivtv-yuv.c:		h_filter = (h_filter >> 1) + (h_filter & 1);
+linux-5.13.6/drivers/media/pci/ivtv/ivtv-yuv.c:		v_filter_1 = (v_filter_1 >> 1) + (v_filter_1 & 1);
+linux-5.13.6/drivers/net/ethernet/packetengines/hamachi.c:								crc = (p_r >> 16) + (p_r & 0xffff)
+linux-5.13.6/drivers/net/usb/ax88179_178a.c:	csum = (csum >> 8) + (csum & 0xff);
+linux-5.13.6/drivers/net/wireless/mediatek/mt7601u/mac.c:			n += (val >> 16) + (val & 0xffff);
+linux-5.13.6/drivers/pci/controller/pcie-iproc-msi.c:	hwirq = (hwirq >> 5) + (hwirq & 0x1f);
+linux-5.13.6/drivers/staging/rtl8712/osdep_intf.h:#define RND4(x)	(((x >> 2) + ((x & 3) != 0)) << 2)
+linux-5.13.6/include/drm/drm_fixed.h:		a >>= (shift >> 1) + (shift & 1);
+linux-5.13.6/lib/digsig.c:	modulus_len = (modulus_bitlen >> 3) + (modulus_bitlen & 7 ? 1 : 0);
+linux-5.13.6/net/x25/af_x25.c:	needed = 1 + ((len >> 4) + (len & 0x0f) + 1) / 2;
+linux-5.13.6/sound/pci/emu10k1/emupcm.c:	pitch_target = (pitch_target >> 1) + (pitch_target & 1);
