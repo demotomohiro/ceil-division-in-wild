@@ -15,3 +15,13 @@ git grep -E "\([[:alnum:]_.]+ \+ [[:alnum:]_.]+ - 1\) / [[:alnum:]_.]+" > x_y-1_
 git grep -E "\([[:alnum:]_.]+ / [[:alnum:]_.]+\) \+ 1" > x_div_y_1
 git grep -E "\([[:alnum:]_.]+ \+ [[:digit:]]+\) / [[:digit:]]+" > x_n-1_div_n
 ```
+
+## Other ceil divisions that don't match these regular expression 
+
+In `arraySize` static member function in `BitArray` class in `PrimeCPP/solution_1/PrimeCPP.cpp`:
+
+```cpp
+inline static size_t arraySize(size_t size) {
+    return (size >> 5) + ((size & 31) > 0);
+}
+```
